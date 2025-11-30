@@ -63,6 +63,7 @@ app.post("/", async (req, res) => {
     }
 });
 module.exports = app;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 // app.listen(PORT, () => {
 //     console.log(`Server is running at http://localhost:${PORT}`);
